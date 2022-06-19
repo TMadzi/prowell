@@ -3,17 +3,17 @@ const img = 'https://res.cloudinary.com/defmmlrqg/image/upload/v1655627649/Pro%2
 </script>
 
 <template>
-  <div grid grid-cols-12>
-    <div col-span-12 h-52 bg-top :style="{ background: `url(${img})` }">
+  <div h-screen>
+    <div col-span-12 bg-top class="h-2/5" :style="{ background: `url(${img})` }">
       1
     </div>
-    <div col-span-12 rounded-2xl px-16 bg-white-500 h-auto py-16 mt--12>
+    <div col-span-12 rounded-2xl px-16 bg-white-500 pt-16 mt--12 class="h-3/5 dark:(bg-gradient-to-b from-dark-500 to-dark-100)">
       <h2 font-bold text-xl>
         Welcome
       </h2>
-      <input id="" appearance-none w-full bg-transparent mt-8 py-1 text-sm border-b-2 border-gray-300 type="text" name="" placeholder="User ID">
-      <input id="" appearance-none w-full bg-transparent mt-8 py-1 text-sm border-b-2 border-gray-300 type="password" name="" placeholder="Password">
-      <div flex flex-col items-center mt-8>
+      <input id="" appearance-none w-full bg-transparent mt-8 py-1 text-sm border-b-2 border-gray-300 dark:bg-transparent type="text" name="" placeholder="User ID">
+      <input id="" appearance-none w-full bg-transparent mt-8 py-1 text-sm border-b-2 border-gray-300 dark:bg-transparent type="password" name="" placeholder="Password">
+      <div flex h-full flex-col items-center mt-8>
         <el-button w-full round type="success">
           Sing In
         </el-button>
