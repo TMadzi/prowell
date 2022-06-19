@@ -6,19 +6,19 @@ async function main() {
     where: { email: 'alice@prisma.io' },
     update: {},
     create: {
-      name: 'John Connors',
+      name: 'Alice Connors',
       title: Title.Dr,
       policyId: '',
       idNumber: '54-5645453Y12',
       insurerId: '',
-      firstName: 'John',
+      firstName: 'Alice',
       lastName: 'Connors',
       email: 'alice@prisma.io',
       address: '',
       dob: '',
       gender: Gender.Female,
-      race: Race.Black,
-      maritalStatus: MaritalStatus.Single,
+      race: Race.Asian,
+      maritalStatus: MaritalStatus.Divorced,
     },
   })
 
