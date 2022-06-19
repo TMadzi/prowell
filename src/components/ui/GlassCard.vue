@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div w-full flex flex-col h-auto rounded-xl pb-8 bg-white bg-opacity-30 p-4>
+  <div w-full flex flex-col h-auto rounded-xl bg-white bg-opacity-30 p-4>
     <h2 text-2xl font-bold text-slate-800>
       {{ title }}
     </h2>

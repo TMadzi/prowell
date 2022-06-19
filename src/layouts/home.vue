@@ -3,7 +3,7 @@ const img = 'https://res.cloudinary.com/defmmlrqg/image/upload/e_blur:273,o_13/v
 </script>
 
 <template>
-  <main class="px-8 py-10 bg-fuchsia-100  h-screen text-gray-700 " :style="{ background: `url(${img})` }">
+  <main class="px-8 py-10 bg-cover  h-screen text-gray-700 " :style="{ background: `url(${img})` }">
     <RouterView />
   </main>
 </template>
