@@ -7,7 +7,7 @@ const img = 'https://res.cloudinary.com/defmmlrqg/image/upload/v1655627649/Pro%2
     <div col-span-12 bg-top class="h-2/5" :style="{ background: `url(${img})` }">
       1
     </div>
-    <div col-span-12 rounded-2xl px-16 bg-white-500 pt-16 mt--12 class="h-3/5 dark:(bg-gradient-to-b from-dark-500 to-dark-100)">
+    <div col-span-12 rounded-12 px-16 bg-white-500 pt-16 mt--10 class="h-3/5 dark:(bg-gradient-to-b from-dark-500 to-dark-100)">
       <h2 font-bold text-xl>
         Welcome
       </h2>
