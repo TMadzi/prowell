@@ -6,7 +6,7 @@ async function main() {
     where: { email: 'alice@prisma.io' },
     update: {},
     create: {
-      name: 'Alice Connors',
+      name: 'Alice Connorsa',
       title: Title.Dr,
       policyId: '',
       idNumber: '54-5645453Y12',
