@@ -6,20 +6,30 @@
       }
     },
     "Member": {
-      "id":  { "string": {} },
+      "id": "uuid",
       "title":  { "string": {} },
       "policyId":  { "string": {} },
       "idNumber":  { "string": {} },
       "insurerId":  { "string": {} },
-      "firstName":  "firstName" ,
-      "lastName":  "lastName",
-      "email":  "email",
-      "address":  { "string": {} },
+      "firstName":  { "regexp": "[A-Z][a-z]{5,10}" },
+      "lastName":  { "regexp": "[A-Z][a-z]{5,10}" },
+      "email":  {"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
+      "address":  { "regexp": "[A-Z][a-z]{5,10}" },
       "dob":  {
         "date": "Y-m-d"
-    },
-      "gender":  { "string": {} },
-      "race":  { "string": {} },
+      },  
+      "gender":  {"string": [
+        "Male",
+        "Female",
+        "Other"
+      ] },
+      "race":  {"string": [
+        "Black",
+        "White",
+        "Indian",
+        "Coloured",
+        "Asian"
+      ] },
       "maritalStatus": { "string": {} }
     },
     "Comment": {
