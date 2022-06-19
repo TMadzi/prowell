@@ -2,7 +2,10 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.25.1
+  '@iconify-json/arcticons': ^1.1.18
   '@iconify-json/carbon': ^1.1.5
+  '@iconify-json/fluent': ^1.1.10
+  '@iconify-json/healthicons': ^1.1.1
   '@intlify/vite-plugin-vue-i18n': ^4.0.0
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
@@ -57,7 +60,10 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.25.1_ud6rd4xtew5bv4yhvkvu24pzm4
+  '@iconify-json/arcticons': 1.1.18
   '@iconify-json/carbon': 1.1.5
+  '@iconify-json/fluent': 1.1.10
+  '@iconify-json/healthicons': 1.1.1
   '@intlify/vite-plugin-vue-i18n': 4.0.0_jw2e7vdrclbpem4sahyj6mbsae
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
@@ -1432,8 +1438,26 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
+  /@iconify-json/arcticons/1.1.18:
+    resolution: {integrity: sha512-2F9b7FVJv5C/topM4OGmA4wyfImFThwBbgvQQ/OxrYRtrZjQhADwXOdtlD25d2YjUeWPVvzOlSDGgav4SYYsBQ==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
   /@iconify-json/carbon/1.1.5:
     resolution: {integrity: sha512-ENl8CIEo+7JcRzpJ/58i+dDc3fkNOO7gyNGg4S4JN5cAiVpvltYTVO86Oei7rpl8bKypJ0vk3B0BbzzTw7DclA==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/fluent/1.1.10:
+    resolution: {integrity: sha512-nWwJbb74QHdnIwbEUxHBBFyMOGBscx6VsYDXmx4e5sIFNQftzNub2e4GEcnd3d4D9VYCBK18NWnPxJfTlBmOMg==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/healthicons/1.1.1:
+    resolution: {integrity: sha512-5/IYakEYdsbsyNfw7DoT33zom5h+sDwLoOq5Ka6FDQfK9k3WW02kMmukULT5GmOsqPg//zOXwHpFux3dqv5MCA==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
