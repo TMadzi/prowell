@@ -1,9 +1,10 @@
+<script setup lang="ts">
+const img = 'https://res.cloudinary.com/defmmlrqg/image/upload/e_blur:273,o_13/v1655627649/Pro%20Wellness/login-tree_guim4t.jpg'
+</script>
+
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
+  <main class="px-8 py-10 bg-fuchsia-100  h-screen text-gray-700 " :style="{ background: `url(${img})` }">
     <RouterView />
-    <Footer />
-    <div class="mt-5 mx-auto text-center opacity-75 dark:opacity-50 text-sm">
-      [Home Layout]
-    </div>
   </main>
 </template>
+

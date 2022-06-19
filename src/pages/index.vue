@@ -1,15 +1,16 @@
 <script setup lang="ts">
+import GlassCard1 from '~/components/ui/GlassCard.vue'
 </script>
 
 <template>
   <div>
     <p text-black>
-      d
+      <GlassCard1 />
     </p>
   </div>
 </template>
 
 <route lang="yaml">
 meta:
-  layout: default
+  layout: home
 </route>
