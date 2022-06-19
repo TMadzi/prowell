@@ -6,8 +6,15 @@
       }
     },
     "Member": {
-      "id": "uuid",
-      "title":  { "string": {} },
+      "id":  { "regexp": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" },
+      "title":  {"string": [
+        "Mr",
+        "Mrs",
+        "Miss",
+        "Dr",
+        "Eng",
+        "Prof"
+      ] },
       "policyId":  { "string": {} },
       "idNumber":  { "string": {} },
       "insurerId":  { "string": {} },
@@ -16,7 +23,10 @@
       "email":  {"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
       "address":  { "regexp": "[A-Z][a-z]{5,10}" },
       "dob":  {
-        "date": "Y-m-d"
+        "dateTime": {
+          "min": "2022-01-01T00:00:00Z",
+          "max": "2022-6-16T23:59:59Z"
+        }
       },  
       "gender":  {"string": [
         "Male",
