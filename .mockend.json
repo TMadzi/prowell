@@ -5,6 +5,21 @@
         "hasMany": "Comment"
       }
     },
+    "Member": {
+      "id":  { "string": {} },
+      "title":  { "string": {} },
+      "policyId":  { "string": {} },
+      "idNumber":  { "string": {} },
+      "insurerId":  { "string": {} },
+      "firstName":  { "string": {} },
+      "lastName":  { "string": {} },
+      "email":  { "string": {} },
+      "address":  { "string": {} },
+      "dob":  { "string": {} },
+      "gender":  { "string": {} },
+      "race":  { "string": {} },
+      "maritalStatus": { "string": {} }
+    },
     "Comment": {
       "body": { "string": {} },
       "post": {
