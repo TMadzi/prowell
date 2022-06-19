@@ -7,7 +7,6 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Counter: typeof import('./components/Counter.vue')['default']
     ElAvatar: typeof import('element-plus/lib')['ElAvatar']
-    ElSelectV2: typeof import('element-plus/lib')['ElSelectV2']
     Footer: typeof import('./components/Footer.vue')['default']
     GlassCard: typeof import('./components/ui/GlassCard.vue')['default']
     README: typeof import('./components/README.md')['default']

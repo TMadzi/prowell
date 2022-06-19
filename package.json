@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@iconify-json/ci": "^1.1.1",
+    "@netlify/functions": "^1.0.0",
     "@vueuse/core": "^8.6.0",
     "@vueuse/head": "^0.7.6",
     "element-plus": "^2.2.6",
@@ -43,6 +44,7 @@
     "https-localhost": "^4.7.1",
     "markdown-it-link-attributes": "^4.0.0",
     "markdown-it-prism": "^2.2.4",
+    "netlify-cli": "^10.5.1",
     "pnpm": "^7.2.1",
     "typescript": "^4.7.3",
     "unocss": "^0.39.0",
