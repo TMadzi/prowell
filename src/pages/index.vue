@@ -8,7 +8,7 @@ import GlassCard1 from '~/components/ui/GlassCard.vue'
       <div flex flex-col items-start justify-center gap-4 mt-6>
         <div flex items-center w-full justify-start>
           <div bg-white shadow-sm text-yellow-500 text-opacity-60 flex items-center justify-start rounded-full w-full px-4 py-2>
-            <div font-bold text-xl i-healthicons-health-data-syn />
+            <div font-bold text-xl i-healthicons-health-data-sync />
             <span text-2xl font-bold mx-4>249</span>
             <div text-xs text-center flex flex-1 flex-col uppercase font-semibold>
               <p>Assessments</p>
@@ -49,45 +49,45 @@ import GlassCard1 from '~/components/ui/GlassCard.vue'
       </div>
     </GlassCard1>
     <section grid grid-cols-12 mt-8 gap-y-8 gap-x-4 w-full>
-      <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center>
+      <router-link to="/assessments/create" col-span-6 flex text-slate-800 text-opacity-60 hover:cursor-pointer hover:shadow-lg>
+        <GlassCard1 flex-col items-center justify-center>
           <h5 text-xs>
             New
           </h5>
-          <div font-bold text-6xl i-arcticons-acalendar-plus />
+          <div font-bold text-4xl i-arcticons-acalendar-plus />
           <h5 text-xs>
             Assessment
           </h5>
-        </div>
-      </GlassCard1>
+        </GlassCard1>
+      </router-link>
       <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center>
+        <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
           <h5 text-xs>
             Recent
           </h5>
-          <div font-bold text-6xl i-arcticons-myapplist />
+          <div font-bold text-4xl i-arcticons-myapplist />
           <h5 text-xs>
             Assessments
           </h5>
         </div>
       </GlassCard1>
       <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center>
+        <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
           <h5 text-xs>
             Latest
           </h5>
-          <div font-bold text-6xl i-arcticons-smartnews />
+          <div font-bold text-4xl i-arcticons-smartnews />
           <h5 text-xs>
             News
           </h5>
         </div>
       </GlassCard1>
       <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center>
+        <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
           <h5 text-xs>
             Learn
           </h5>
-          <div font-bold text-6xl i-arcticons-bookcatalogue />
+          <div font-bold text-4xl i-arcticons-bookcatalogue />
           <h5 text-xs>
             More
           </h5>

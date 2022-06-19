@@ -26,10 +26,7 @@ useHead({
 </template>
 
 <style>
-body {
-  @apply text-slate-800
-}
-p,h1,h2,h3,h4,h5{
+html, p,h1,h2,h3,h4,h5{
   font-family: 'Sen', sans-serif;
 }
 </style>
