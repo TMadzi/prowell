@@ -1,5 +1,10 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
+import { useMemberStore } from '../../store/member.store'
+
+const memberStore = useMemberStore()
+
+const members = ref(memberStore.getMembers())
 
 const states = [
   'Alabama',
@@ -98,6 +103,9 @@ const remoteMethod = (query: string) => {
     <section v-if="value">
       <h2>{{ value }}</h2>
     </section>
+    <p v-for="member in members" :key="member">
+      {{ member.id }}
+    </p>
   </div>
 </template>
 

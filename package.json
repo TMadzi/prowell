@@ -13,18 +13,14 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "prisma": {
-    "seed": "ts-node prisma/seed.ts"
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "dependencies": {
     "@iconify-json/ci": "^1.1.1",
-    "@netlify/functions": "^1.0.0",
-    "@prisma/client": "^3.15.2",
     "@vueuse/core": "^8.6.0",
     "@vueuse/head": "^0.7.6",
     "element-plus": "^2.2.6",
     "nprogress": "^0.2.0",
-    "pg": "^8.7.3",
-    "pg-native": "^3.0.0",
     "pinia": "^2.0.14",
     "prism-theme-vars": "^0.2.3",
     "vue": "^3.2.37",
@@ -39,8 +35,8 @@
     "@iconify-json/healthicons": "^1.1.1",
     "@intlify/vite-plugin-vue-i18n": "^4.0.0",
     "@types/markdown-it-link-attributes": "^3.0.1",
+    "@types/node": "^18.0.0",
     "@types/nprogress": "^0.2.0",
-    "@types/pg": "^8.6.5",
     "@vitejs/plugin-vue": "^2.3.3",
     "@vue/test-utils": "^2.0.0",
     "critters": "^0.0.16",
@@ -51,9 +47,8 @@
     "https-localhost": "^4.7.1",
     "markdown-it-link-attributes": "^4.0.0",
     "markdown-it-prism": "^2.2.4",
-    "netlify-cli": "^10.5.1",
     "pnpm": "^7.2.1",
-    "prisma": "^3.15.2",
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.3",
     "unocss": "^0.39.0",
     "unplugin-auto-import": "^0.8.8",
