@@ -87,11 +87,11 @@ const remoteMethod = (query: string) => {
         </div>
       </template>
       <div text-center>
-        <BiologicalAssessment1 v-if="formStore.assessmentFormStep === 0" />
-        <BiometricAssessment1 v-if="formStore.assessmentFormStep === 1" />
+        <BiologicalAssessment1 />
+        <!-- <BiometricAssessment1 v-if="formStore.assessmentFormStep === 1" />
         <BehaviouralAssessment1 v-if="formStore.assessmentFormStep === 2" />
         <AssessmentConfirm1 v-if="formStore.assessmentFormStep === 3" />
-        <AssessmentResults1 v-if="formStore.assessmentFormStep === 4" />
+        <AssessmentResults1 v-if="formStore.assessmentFormStep === 4" /> -->
       </div>
     </el-card>
   </div>

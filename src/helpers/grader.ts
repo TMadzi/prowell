@@ -1,4 +1,4 @@
-export class Grader {
+export default class Grader {
   gradeWellness(wellnessScore: number) {
     let color = ''
     if (wellnessScore <= 12)
@@ -61,7 +61,6 @@ export class Grader {
       color = 'text-amber-500'
     else if (glu >= 11)
       color = 'text-red-500'
-    console.log(glu)
     return color
   }
 

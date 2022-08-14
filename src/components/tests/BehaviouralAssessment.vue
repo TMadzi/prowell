@@ -50,12 +50,12 @@ const goBack = async () => {
     </el-form>
     <div class="flex gap-4">
       <button class="text-center flex justify-between mt-16 w-48 text-center tracking-wider bg-whiteFade text-primary border-2 border-primary px-8 md:px-16 py-3 rounded-full group hover:(bg-whiteFade text-primary) focus:outline-none transition duration-500 ease-in-out" round @click="goBack()">
-        <font-awesome-icon class="group-hover:text-primary text-2xl self-end text-primary" icon="arrow-left" />
+        <!-- <font-awesome-icon class="group-hover:text-primary text-2xl self-end text-primary" icon="arrow-left" /> -->
         BACK
       </button>
       <button class="text-center flex justify-between mt-16 w-48 text-center tracking-wider bg-primary text-whiteFade border-2 border-primary px-8 md:px-16 py-3 rounded-full group hover:(bg-whiteFade text-primary) focus:outline-none transition duration-500 ease-in-out" round @click="handleClick()">
         NEXT
-        <font-awesome-icon class="group-hover:text-primary text-2xl self-end text-white" icon="arrow-right" />
+        <!-- <font-awesome-icon class="group-hover:text-primary text-2xl self-end text-white" icon="arrow-right" /> -->
       </button>
     </div>
   </div>

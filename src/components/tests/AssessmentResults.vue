@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-import { Grader } from '../../helpers/grader'
+import Grader from '../../helpers/grader'
 
 interface SummaryField {
   name: string
@@ -115,7 +115,7 @@ fields.push(
     </el-tabs>
     <router-link to="/" class="text-center flex justify-between mt-12 w-48 text-center tracking-wider bg-primary text-whiteFade border-2 border-primary px-8 md:px-16 py-3 rounded-full group hover:(bg-whiteFade text-primary) focus:outline-none transition duration-500 ease-in-out" round>
       Finish
-      <font-awesome-icon class="group-hover:text-primary text-2xl self-end text-white" icon="arrow-right" />
+      <!-- <font-awesome-icon class="group-hover:text-primary text-2xl self-end text-white" icon="arrow-right" /> -->
     </router-link>
   </div>
 </template>

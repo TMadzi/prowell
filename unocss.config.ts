@@ -30,6 +30,60 @@ export default defineConfig({
       },
     }),
   ],
+  theme: {
+    extend: {
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
+      fontSize: {
+        xxs: '0.5rem',
+      },
+      colors: {
+        // primary: '#0fd64f',
+        // primaryAccent: '#f8ef42',
+        primary: '#0181D4',
+        primaryAccent: '#FDEC06',
+        text: '#50514f',
+        ringFade: '#615f5f2e',
+        whiteFade: '#fffcff',
+        grey: {
+          trans: '#6a6a6a8c',
+          text: '#646D82',
+          lightText: '#B4B4B4',
+          bg: '#F7F7F7',
+          light: '#B2B2B2',
+          underline: '#E9E9F0',
+          bg2: '#F5F5F5',
+          table: '#CBD1D9',
+        },
+        green: {
+          success: '#0181D4',
+          suc: '#22CE8B',
+        },
+      },
+      fontFamily: {
+        sans: ['Graphik', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        helv: ['Helvetica', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
+        proxima: ['Proxima Nova', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+      },
+      boxShadow: {
+        toggle: '0 6px 16px -2px rgba(24, 151, 233, .5)',
+      },
+    },
+    variants: {
+      extend: {
+        borderColor: ['active'],
+      },
+    },
+  },
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),

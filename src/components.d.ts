@@ -20,8 +20,6 @@ declare module '@vue/runtime-core' {
     ElForm: typeof import('element-plus/lib')['ElForm']
     ElProgress: typeof import('element-plus/lib')['ElProgress']
     ElSelectV2: typeof import('element-plus/lib')['ElSelectV2']
-    ElTabPane: typeof import('element-plus/lib')['ElTabPane']
-    ElTabs: typeof import('element-plus/lib')['ElTabs']
     Footer: typeof import('./components/Footer.vue')['default']
     GlassCard: typeof import('./components/ui/GlassCard.vue')['default']
     InfoAccordion: typeof import('./components/learn/InfoAccordion.vue')['default']
