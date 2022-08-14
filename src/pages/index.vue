@@ -60,39 +60,45 @@ import GlassCard1 from '~/components/ui/GlassCard.vue'
           </h5>
         </GlassCard1>
       </router-link>
-      <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
-          <h5 text-xs>
-            Recent
-          </h5>
-          <div font-bold text-4xl i-arcticons-myapplist />
-          <h5 text-xs>
-            Assessments
-          </h5>
-        </div>
-      </GlassCard1>
-      <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
-          <h5 text-xs>
-            Latest
-          </h5>
-          <div font-bold text-4xl i-arcticons-smartnews />
-          <h5 text-xs>
-            News
-          </h5>
-        </div>
-      </GlassCard1>
-      <GlassCard1 col-span-6>
-        <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
-          <h5 text-xs>
-            Learn
-          </h5>
-          <div font-bold text-4xl i-arcticons-bookcatalogue />
-          <h5 text-xs>
-            More
-          </h5>
-        </div>
-      </GlassCard1>
+      <router-link to="/stats" col-span-6 flex text-slate-800 text-opacity-60 hover:cursor-pointer hover:shadow-lg>
+        <GlassCard1 col-span-6>
+          <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
+            <h5 text-xs>
+              Recent
+            </h5>
+            <div font-bold text-4xl i-arcticons-myapplist />
+            <h5 text-xs>
+              Assessments
+            </h5>
+          </div>
+        </GlassCard1>
+      </router-link>
+      <router-link to="/stats" col-span-6 flex text-slate-800 text-opacity-60 hover:cursor-pointer hover:shadow-lg>
+        <GlassCard1 col-span-6>
+          <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
+            <h5 text-xs>
+              View
+            </h5>
+            <div font-bold text-4xl i-arcticons-smartnews />
+            <h5 text-xs>
+              Stats
+            </h5>
+          </div>
+        </GlassCard1>
+      </router-link>
+      <router-link to="/learn" col-span-6 flex text-slate-800 text-opacity-60 hover:cursor-pointer hover:shadow-lg>
+        <GlassCard1 col-span-6>
+          <div flex flex-col items-center justify-center text-slate-800 text-opacity-60>
+            <h5 text-xs>
+              Learn
+            </h5>
+            <div font-bold text-4xl i-arcticons-bookcatalogue />
+            <h5 text-xs>
+              More
+            </h5>
+          </div>
+        </GlassCard1>
+      </router-link>
     </section>
   </div>
 </template>
